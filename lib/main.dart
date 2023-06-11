@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Skill Tracker',
-      home: AuthPage(),
+      home: BottomNavBar(),
     );
   }
 }
