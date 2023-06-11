@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skill_tracker/pages/auth_page.dart';
 import 'package:skill_tracker/widgets/bottom_nav_bar.dart';
 
 void main() => runApp(const MyApp());
@@ -15,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Skill Tracker',
-      home: BottomNavBar(),
+      home: AuthPage(),
     );
   }
 }
